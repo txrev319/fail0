@@ -1,0 +1,9 @@
+{application, fail0,
+  [{description, "fail0"},
+   {vsn, "1"},
+   {modules, []},
+   {registered, []},
+   {applications, [mnesia, kernel, stdlib]},
+   {mod, {fail0_app, []}},
+   {env, [{mnesia, [{dir, "/home/x/data/"}]}]}
+]}.
